@@ -5,3 +5,4 @@ requests
 playwright
 pymongo
 httpx
+dnspython
