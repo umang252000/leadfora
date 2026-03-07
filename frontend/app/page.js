@@ -17,7 +17,7 @@ export default function Home() {
     try {
 
       const res = await axios.post(
-        "https://8000--019cc884-c11a-7f3c-9231-bf9c7a165a1c.us-east-1-01.gitpod.dev/search-leads",
+        "https://leadfora.onrender.com/search-leads",
         { query }
       )
 
@@ -58,7 +58,7 @@ export default function Home() {
         </button>
 
         <a
-          href="https://8000--019cc884-c11a-7f3c-9231-bf9c7a165a1c.us-east-1-01.gitpod.dev/export-leads"
+          href="https://leadfora.onrender.com/export-leads"
           className="bg-green-600 text-white px-6 py-3 rounded"
         >
           Export CSV
